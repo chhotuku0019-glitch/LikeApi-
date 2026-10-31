@@ -368,8 +368,8 @@ def handle_requests():
         "UID": actual_player_uid_from_profile,
         "status": request_status,
         "Note": f"Used visit token for profile check and {'random' if use_random else 'rotating'} batch of {len(tokens_for_like_sending)} tokens for like sending.",
-        "Owner": "@Priyanshu0091",
-        "Tg": "t.me/zercodeyt"
+        "Owner": "@priyanshu.ac",
+        "Tg": "t.me/zerocodeyt"
     }
     return jsonify(response_data)
 
